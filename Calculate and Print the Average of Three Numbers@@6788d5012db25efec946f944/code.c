@@ -7,7 +7,7 @@ int main()
 
     avg=a+b+c/3;
 
-    printf("Average: %.2d",avg);
+    printf("Average: %d",avg);
 
     return 0;
 }
