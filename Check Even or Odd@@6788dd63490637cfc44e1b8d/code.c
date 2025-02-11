@@ -5,13 +5,13 @@ int main()
 
     scanf("%d",&a);
 
-    if (a%2=0)
+    if (a%2==0)
     {
-        printf("Even");
+        printf("Even",a);
     }
     else 
     {
-        printf("Odd");
+        printf("Odd",a);
     }
     return 0;
 }
