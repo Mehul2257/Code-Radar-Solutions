@@ -10,5 +10,5 @@ int main()
     else {
         printf("False");
     }
-    Return 0;
+    return 0;
 }
