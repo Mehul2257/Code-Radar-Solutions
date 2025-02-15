@@ -1,14 +1,14 @@
 #include <stdio.h>
-int main()
-{
-    int a;
-    scanf("%d",&a);
 
-    if(!(a<0)){
-        printf("False");
+int main() {
+    int num;
+    scanf("%d", &num);
+    
+    if (!(num > 0)) {
+        printf("True\n");
+    } else {
+        printf("False\n");
     }
-    else{
-        printf("True");
-    }
+    
     return 0;
 }
