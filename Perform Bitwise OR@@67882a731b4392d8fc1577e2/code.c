@@ -2,7 +2,7 @@
 int main()
 {
 int a,b,sum;
-printf("Enter the number");
+printf("Enter the number\n");
 scanf("%d %d",&a,&b);
 
 if(a>0 || b>0){
